@@ -1,0 +1,12 @@
+<?php
+
+
+echo date("Y/m/d")."<br>";
+
+$num = rand(1,2);
+
+if($num == 1){
+    echo "あたり";
+}else{
+    echo"はずれ";
+}
