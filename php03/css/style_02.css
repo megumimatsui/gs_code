@@ -1,0 +1,42 @@
+body {font-family:'Noto Sans JP', sans-serif;}
+.navbar-brand{
+    font-size: 11px;
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    background: #ff7a3c;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px #ca480c;
+    border-radius: 3px;
+
+}
+
+/* .jumbotron {
+    margin: 2em 0;
+    background: #ffffff;
+    width:500px;
+    box-shadow: 0 0px 50px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+} */
+
+.box{
+    margin: 2em 0;
+    background: #ffffff;
+    width:500px;
+    box-shadow: 0 0px 50px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+.del_btn{
+    font-size: 11px;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    background: #ff7a3c;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px #ca480c;
+    border-radius: 3px;
+}
+
+.job_title{
+    font-size: 15px;
+}
