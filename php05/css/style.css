@@ -1,0 +1,226 @@
+/* カレンダーに影をつけて目立たせる */
+.ui-datepicker {box-shadow:3px 3px 5px rgba(0,0,0,0.5);}
+/* 上の部分を太字にする */
+.ui-datepicker-header {font-weight:bold;}
+/* キーボードでの日付選択時などの強調表示 */
+.ui-state-hover {background:#eee;}
+
+body {font-family:'Noto Sans JP', sans-serif;}
+
+.jumbotron {
+    margin: 2em 0;
+    background: #ffffff;
+    width:650px;
+    box-shadow: 0 0px 50px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+
+}
+.box-title {
+    font-size: 1em;
+    background: #ff7a3c;
+    padding: 9px;
+    text-align: center;
+    color: #FFF;
+    font-weight: light;
+    letter-spacing: 0.05em;
+    
+}
+.box-content {
+    color:  #3a3a3a;
+    font-size: 14px;
+    padding: 35px;
+    margin: 0;
+}
+
+.cl_info{
+    display: flex;
+    flex-wrap:wrap;
+}
+h2{
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+.item{
+    padding:20px 10px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.edit_btn1.edit_btn2.edit_btn3.edit_btn4.edit_btn5.edit_btn6.edit_btn7{
+    height: 24px;
+    padding: 0 12px;
+    font-size: 12px;
+    color: #6A6E71;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+#btn1,#btn2,#btn3,#btn4,#btn5,#btn6,#btn7{
+    height: 24px;
+    padding: 0 12px;
+    font-size: 12px;
+    color: white;
+    background: #ff7d6e;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.ttl_btn{
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.job_info{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+#write1,#write2,#write3,#write4,#write5,#write6,#write7{
+    display: none;
+    margin: 10px 0;
+    padding: 0.5em 1em;
+    color: #ff7d6e;
+    background: #ffebe9;
+    border-top: solid 10px #ff7d6e;
+}
+#title,#summary,#client,#date,#industry,#genre,#occupation{
+    width: 100%;
+    margin:10px;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	height: 40px;
+	padding-bottom: 0 10px;
+	background-color: #ffebe9;
+	border-bottom: thin solid #c0c0c0;
+	color:#ff7d6e;
+}
+#titleResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+#sumResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+#clResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+#dtResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+#geResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+
+#inResult{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+#inOccu{
+    display: none;
+    width: 100%;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	background-color: #fff;
+    color:#3a3a3a;
+    padding: 30px 0 0;
+}
+
+
+.write{
+    margin:10px;
+	outline: 0;
+	border: none;
+	font-size: 15px;
+	height: 40px;
+	padding-bottom: 0 10px;
+	background-color: #fff;
+	border-bottom: thin solid #c0c0c0;
+	color:#3a3a3a;
+
+}
+#btn{
+    font-size: 11px;
+    width:460px;
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    background: #ff7a3c;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px #ca480c;
+    border-radius: 3px;
+}
+
+.navbar-header{
+    width:500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    font-size: 11px;
+    /* display: inline-block; */
+    padding: 1em 1em;
+    margin:3px;
+    text-decoration: none;
+    background: #ff7a3c;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 2px #ca480c;
+    border-radius: 3px;
+
+}
+/* .jumbotron{
+    width:600px;
+
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    border-radius: 9px;
+} */
